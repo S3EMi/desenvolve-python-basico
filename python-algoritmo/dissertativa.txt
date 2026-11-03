@@ -1,0 +1,21 @@
+SOLUÇÃO DISSERTATIVA - TRUQUE DA TABUADA DO 9
+
+Entrada:
+1. Peça ao usuário um número inteiro n, entre 1 e 10, que será multiplicado por 9.
+2. Leia o valor de n.
+3. Se n for menor que 1 ou maior que 10, informe que o valor é inválido e volte ao passo 1.
+   (Fora desse intervalo o "truque dos dígitos" deixa de fazer sentido, pois a unidade, 10 - n, deixaria de ser um dígito de 0 a 9.)
+
+Processamento:
+4. Calcule o dígito da dezena subtraindo 1 de n:  dezena = n - 1.
+5. Calcule o dígito da unidade subtraindo n de 10:  unidade = 10 - n.
+6. Calcule o resultado final multiplicando a dezena por 10 e somando a unidade:  resultado = dezena x 10 + unidade.
+
+Saída:
+7. Imprima o resultado final, no formato "9 x n = resultado".
+8. Encerre o algoritmo.
+
+Exemplo (n = 7):
+dezena = 7 - 1 = 6
+unidade = 10 - 7 = 3
+resultado = 6 x 10 + 3 = 63   (confere: 9 x 7 = 63)
